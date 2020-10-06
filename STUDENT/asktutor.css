@@ -1,0 +1,161 @@
+*{
+margin:0;
+padding:0;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("source_background/bckground3.jpg");
+height: 180vh;
+background-size: cover;
+background-position: center;
+}
+.header{
+	height:150;
+	
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:10px;
+font-size:18px;
+}
+
+ul li{
+display: inline-block;
+margin-left:25px;
+}
+
+ul li a{
+text-decoration:none;
+color:white;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color:white;
+color:black;
+}
+
+.main{
+max-width: 1500px;
+margin:auto;
+}
+
+.block{
+border:none;
+height:320px;
+padding:auto;
+margin:auto;
+margin-top:90px;
+width:650px;
+background-color:rgba(255,255,255,0.80);
+}
+.block2{
+margin:auto;
+height:200px;
+width:500px;
+border:none;
+overflow-y:scroll;
+}
+hr{
+border-color:white;
+}
+.head{
+
+padding-top:20px;
+margin-top:20px;
+font-size:29px;
+font-family:Georgia;
+color:black;
+text-shadow:0px 0px 3px black;
+}
+.hed1{
+font-size:40px;
+color:red;
+text-shadow:0px 0px 2px green,1px 1px 15px DeepPink,2px 2px 15px blue;
+}
+p{
+text-align:center;
+font-size:25px;
+color:blue;
+text-shadow:0px 0px 2px green,1px 1px 15px DeepPink,2px 2px 15px blue;
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("source_background/bckground3.jpg");
+background-size: cover;
+background-position: center;
+	overflow:hidden;
+	/*border:1px solid black;*/
+	margin:auto;
+	padding:auto;
+	min-width:400px;
+}
+button
+{
+border:none;
+width: 100px;
+background: green;
+color: black;
+font-size: 16px;
+line-height: 25px;
+padding: 10px 0px;
+border-radius: 15px;
+cursor: pointer;
+ margin-left:650px;
+ margin-top:10px;
+}
+button:hover
+{
+color:white;
+background: black;
+}
+.container
+{
+	box-shadow:0px 1px 10px 1px #000;
+	overflow:hidden;
+	display:inline-block;
+	align-items:left;
+	text-align:left;
+	font-family:'Flamenco', cursive;
+	margin-top:130px;
+	margin-left:480px;
+	height:300px;
+	width:550px;
+	text-align:center;
+	transform:translate:(-50%,-50%);
+	box-sizing:border-box;
+	border-radius:30px;
+	
+}
+.btn
+{
+	height:50px;
+	width:120px;
+	color:black;
+	 margin-top:112px;
+	margin-left:50px;
+	background-color:transparent;
+	font-size: 16px;
+line-height: 25px;
+padding: 10px 0px;
+border-radius: 15px;
+cursor: pointer;
+	
+	
+}
+
+.btn1
+{
+	height:50px;
+	width:120px;
+	color:black;
+	 margin-top:20px;
+	margin-left:140px;
+	background-color:transparent;
+	font-size:16px;
+	line-height:25px;
+	padding:10px 0px;
+	border-radius:15px;
+	curs

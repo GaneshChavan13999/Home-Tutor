@@ -1,0 +1,340 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:-5px;
+	font-size:18px;
+}
+ul li{
+	display: inline-block;
+	margin-left:25px;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+ ul li a:hover{
+	background-color:white;
+	color:black;
+}
+.content
+{
+background: rgba(44,62,80,0.7);
+padding: 70px;
+margin-top:30px;
+font-weight:bold;
+height:270px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:-5px;
+	font-size:18px;
+}
+ul li{
+	display: inline-block;
+	margin-left:25px;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+ ul li a:hover{
+	background-color:white;
+	color:black;
+}
+.content
+{
+background: rgba(44,62,80,0.7);
+padding: 70px;
+margin-top:30px;
+font-weight:bold;
+height:270px;
+width:250px;
+color:white;
+font-size:20px;
+
+
+ 
+}
+table{
+align-items:center;
+}
+
+
+
+td{
+padding:30px;
+margin:30px;
+}
+h1{
+padding:20px;
+width:470px;
+text-align:centre;
+color:white;
+font-size:50px;
+margin-left:550px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:10px;
+font-size:18px;
+margin-left:25px;
+}
+
+ul li{
+display: inline-block;
+margin-left:25px;
+}
+
+ul li a{
+text-decoration:none;
+color:white;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+
+ ul li a:hover{
+background-color:white;
+color:black;
+}
+.main{
+max-width: 1500px;
+margin:auto;
+}
+
+.wrap{
+max-width:300px;
+border-radius:20px;
+margin:auto;
+background:rgba(0,0,0,0.4);
+padding:40px;
+color:white;
+margin-top:90px;
+}
+.header{
+		font-size:22px;
+		width:100%;
+font-family:'Century Gothic';
+	}
+.title{
+width:294px;
+}
+h2{
+text-align:left;
+color:red;
+}
+input[type=text]{
+width=100%;
+box-sizing:border-box;
+padding:15px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+border:none;
+border-bottom:1px dotted white;
+color: white;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}
+textarea{
+margin-left:0px;
+width:294px;
+height:100px;
+resize:none;
+}
+.textarea{
+font-size:12px;
+color:white;
+border:none;
+overflow:scroll;
+}
+.button{
+display:inline-block;
+padding:9px 123px;
+font-size:18px;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+margin-top:20px;
+background-color: green;
+color: White;
+margin-right:15px;
+border: 1px solid white;
+}
+
+.button:hover{
+background-color:red;
+color:white;
+}
+.content{
+	height:270px;
+}
+
+20px;
+width:250px;
+color:white;
+font-size:20px;
+
+
+ 
+}
+table{
+align-items:center;
+}
+
+
+
+td{
+padding:30px;
+margin:30px;
+}
+h1{
+padding:20px;
+width:470px;
+text-align:centre;
+color:white;
+font-size:50px;
+margin-left:550px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+background:url("source_background/bckground2.jpg");
+background-size:cover;
+overflow:scroll;
+background-attachment: fixed;
+background-repeat:no repeat;
+}
+header{
+background-size: cover;
+background-position: center;
+}
+
+ul{
+float:right;
+list-style-type:none;
+margin-top:10px;
+font-size:18px;
+margin-left:25px;
+}
+
+ul li{
+display: inline-block;
+margin-left:25px;
+}
+
+ul li a{
+text-decoration:none;
+color:white;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+
+ ul li a:hover{
+background-color:white;
+color:black;
+}
+.main{
+max-width: 1500px;
+margin:auto;
+}
+
+.wrap{
+max-width:300px;
+border-radius:20px;
+margin:auto;
+background:rgba(0,0,0,0.4);
+padding:40px;
+color:white;
+margin-top:90px;
+}
+.header{
+		font-size:22px;
+		width:100%;
+font-family:'Century Gothic';
+	}
+.title{
+width:294px;
+}
+h2{
+text-align:left;
+color:red;
+}
+input[type=text]{
+width=100%;
+box-sizing:border-box;
+padding:15px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+border:none;
+border-bottom:1px dotted white;
+color: white;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}
+textarea{
+margin-left:0px;
+width:294px;
+height:100px;
+resize:none;
+}
+.textarea{
+font-size:12px;
+color:white;
+border:none;
+overflow:scroll;
+}
+.button{
+display:inline-block;
+padding:9px 123px;
+font-size:18px;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+margin-top:20px;
+background-color: green;
+color: White;
+margin-right:15px;
+border: 1px solid white;
+}
+
+.button:hover{
+background-color:red;
+color:white;
+}
+
+

@@ -1,0 +1,64 @@
+/*for creating popup menu*/
+#popup1,#popup{
+	background-color:rgba(0,0,0,0.60);
+	height:100%;
+	width:100%;
+	padding-bottom:50px;
+	position:absolute;
+	z-index:1;
+	margin:auto;padding:auto;
+	display:none;
+}
+
+.data{
+	margin:auto;
+	padding:auto;
+	background-color:white;
+	width:700px;
+	height:400px;
+	border:none;
+	margin-top:100px;
+	box-shadow:0px 0px 50px rgba(255,0,255,0.60);
+}
+
+
+.content{
+	width:600px;
+	height:300px;
+	border:none;
+	margin:50px 45px auto;
+	padding:auto;
+	position:absolute;
+	overflow-y:scroll;
+}
+
+.close{
+	float:right;
+	margin-right:25px;
+	margin-top:15px;
+	cursor:pointer;
+}
+@media only screen and (max-width:800px) and (orientation:landscape)
+{
+	#popup1,#popup{
+		height:600px;
+	}
+	
+}
+
+@media only screen and (max-width:600px)
+{
+	#popup1,#popup{
+		min-width:400px;
+		height:700px;
+	}
+	.data{
+		width:350px;
+	}
+	.content{
+		/*border:1px solid blue;*/
+		width:250px;
+	}
+
+
+}

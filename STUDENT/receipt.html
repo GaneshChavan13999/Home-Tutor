@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Print RECEIPT</title>
+<link href="w3.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container"></div>
+<h2>RECEIPT</h2>
+<form>
+
+<p>
+<label>NAME</label>
+<input type="text" class="w3-input w3-border" />
+</p>
+
+<p>
+<label>E-MAIL</label>
+<input type="email" class="w3-input w3-border" />
+</p>
+
+<p>
+<label>CONTACT NO</label>
+<input type="tel" class="w3-input w3-border" />
+</p>
+
+<p>
+<label>ADDRESS</label>
+<textarea class="w3-input w3-border" /> </textarea>
+</p>
+
+<p>
+<label>FEES</label>
+<input type="number" class="w3-input w3-border" />
+
+</p>
+
+</form>
+<div class="w3-right footer">
+<button id="print" class="w3-button w3-blue"> PRINT RECEIPT </button>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="print.js"></script>
+<script>
+$('#print').click(function(){
+$('.container').print({
+		debug: false,							//show iframe for debugging
+		importCSS: true;						//import parent page css
+		printContainer: true,					//print outer container /$.selector
+		loadCSS: "",							//load an additional css file-load multiple stylesheets with an array[]
+		pageTitle: "PRINT RECEIPT",							//add title o print page
+		removeInline: false,					//remove all inline styles
+		printDelay: 333,						//variable print delay
+		header:<h1 class='w3-center'>PRINT RECEIPT<h2> ,							//prefix to html
+		footer: null,							//postfix to html
+		formValues: true,						//preserve input/form values
+		canvas: false,							//copy canvas content(experimental)
+		base: false,							//preserve the BASE tag,or accepta string for the URL
+		doctypeString: '<!DOCTYPE html>',		//html doctype
+		removeScripts: false,					//remove script tags before appending
+		copyTagClasses: false					//copy classes from the html & body tag
+});
+})
+</body>
+</html>

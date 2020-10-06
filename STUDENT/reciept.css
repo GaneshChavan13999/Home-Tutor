@@ -1,0 +1,47 @@
+body{
+	align-items:center;
+	background-image:url("source_background/bckground3.jpg");
+	color:black;
+	background-repeat:no-repeat;
+	background-size:1550px;
+background-attachment: fixed;
+background-repeat:no repeat;
+}
+.container
+{
+	text-align:center;
+	background:rgba(44,62,82,0.6);
+	padding:70px;
+	margin-left:120px;
+	margin-top:30px;
+	margin-left:420px;
+	height:480px;
+	width:450px;
+}
+table{
+	height:490px;
+	width:500px;
+	margin-left:-20px;
+	margin-top:-50px;
+	text-align:center;
+}
+
+button
+{
+border:none;
+width: 100px;
+background: green;
+color: black;
+font-size: 16px;
+line-height: 25px;
+padding: 10px 0px;
+border-radius: 15px;
+cursor: pointer;
+ margin-left:650px;
+ margin-top:10px;
+}
+button:hover
+{
+color:white;
+background: black;
+}

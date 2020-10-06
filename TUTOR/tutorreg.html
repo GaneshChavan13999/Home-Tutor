@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tutor Registration</title>
+		
+<link rel="stylesheet" type="text/css" href="global.css" />
+<link rel="stylesheet" type="text/css" href="background2.css" />
+<link rel="stylesheet" type="text/css" href="tutorreg.css" />
+
+<script src="logout.js"></script>
+<script src="employeereg.js"></script>
+<script src="jquery-1.7.1.min.js"></script>
+<script src="navigation.js"></script>
+<script src="animation.js"></script>     
+</head>
+    
+<body>
+<header>
+<div class="main">
+<ul>
+<li><a href="tutorhomepage.php">HOME</a></li>
+<li><a href="#">PROFILE</a></li>
+<a href="login.php"><button onclick="onlogout()" class="logout"><?php echo $ad_user; ?>LOGOUT</button></a>
+
+
+</ul>
+</div>
+
+<div class="header">&nbsp;&nbsp;HOME TUTOR's 
+</div>
+
+<div class="body">
+<div class="block1">
+<p class="head1">Tutor Registration</p>
+<hr>
+        
+<form name="form1" method="post" action="tuttorreg.php">
+<fieldset class="fieldset">
+<legend class="legend1"><b>Personal Details</b></legend>
+
+<div class="span1">Tutor Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="inp1" type="text" name="empname" required/></div>
+
+<div class="span2">Birth Date:<input  min="1980-01-01"  max="2012-01-02" id="bday" type="date" name="dob" required /></div>
+            
+<div class="span3">Gender:
+<input class="inp2" type="radio" name="gender" value="Male" checked>Male
+<input class="inp2" type="radio" name="gender" value="Female">Female
+<input class="inp2" type="radio" name="gender" value="Others">Others</div>
+            
+<div class="span4">Contact:<input class="inp3" type="tel" name="contact" required /></div>
+            
+<div class="span5">Email:<input id="email" type="text" name="email" required /></div>
+            
+<div class="span6">Known Language:<input class="inp4" type="text" name="klang" required />
+</fieldset>
+        
+<fieldset class="fieldset">
+<legend><b>Residental Details</b></legend>
+            
+<div class="span7"><p class="address">Address:</p><textarea class="textarea" name="address"></textarea></div>
+            
+<div class="span8">Pincode:<input class="inp3" type="number" name="pin" required /></div>
+            
+<div class="span9">State:<select class="inp5" name="state">
+<option value="maharastra">Maharastra</option>
+<option value="goa">Goa</option>
+<option value="up">U.P.</option>
+<option value="bihar">Bihar</option>
+<option value="assam">Assam</option>
+<option value="kerela">Kerela</option>
+<option value="gujarat">Gujarat</option>
+<option value="karanataka">Karnataka</option>
+</select>
+</div>
+            
+<div class="span10">City:<input class="inp6" type="text" name="city"  required /></div>
+<div class="span11">Country:<select class="inp11" name="country" required />
+<option selected value="india">India</option>
+</select></div>
+</fieldset>
+        
+<fieldset class="fieldset">
+<legend><b>Educational Details</b></legend>
+
+<div class="span12">Qualifications:<select class="inp9" name="class" required />	
+<option value="science" selected>SCIENCE</option>
+<option value="commerce">COMMERCE</option>
+<option value="arts" selected>ARTS</option>
+<option value="vocationals">VOCATIONAL SCIENCE</option></select></div>
+			
+<div class="span13">Teaching Subject:<select class="inp9" name="subject" required />
+<option value="Maths">MATHS</option>
+<option value="Physics">PHYSICS</option>
+<option value="Chemistry">CHEMISTRY</option>
+<option value="English">ENGLISH</option>
+<option value="Sociology">SOCIOLOGY</option>
+<option value="Accounts">ACCOUNTS</option>
+<option value="Hindi">HINDI</option>
+<option value="Physcology">PHYSCOLOGY</option>
+<option value="Computer SCIENCE">COMPUTER SCIENCE</option>
+
+</select>
+</div>
+<br>
+<div class="span14">Experience:<input class="inp10" type="text" name="exp" required /></div>
+</fieldset>
+            
+<fieldset class="fieldset">
+<legend><b>Tutor Details</b></legend>
+
+<div class="span16">Username:<input class="inp11" type="text" name="username" required /></div>
+<div class="span17">Password:<input class="inp10" type="password" name="password" required /></div>
+<br>
+<div class="span18">Location:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="inp11" type="text" name="location" required />
+<div class="span19">Fees:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="inp11" type="text" name="fees" required />
+</div>
+</fieldset>
+            
+<a href="index.html"><input class="button1" type="button" onclick="valid()" value="Submit" /></a>
+<input class="button1" type="reset" value="Clear" />
+<input class="button1" onclick="onback()" type="button" value="Back" />
+</form>
+</div>
+</div>
+    </body>
+</html>

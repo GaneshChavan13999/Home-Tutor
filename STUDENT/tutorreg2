@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Tutor Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="global.css" />
+		<link rel="stylesheet" type="text/css" href="tutorreg.css" />
+        
+        <script src="logout.js"></script>
+        <script src="employeereg.js"></script>
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="navigation.js"></script>
+		<script src="animation.js"></script>
+         
+    </head>
+    <body>
+         <div class="header"> 
+             <!--<p class="header1"><b><a href="index.php"><?php include("setup/websitetitle.php") ?></a></b></p> 
+            <button onclick="onlogout()" class="logout"><?php echo $ad_user; ?>Logout</button> -->
+        </div>
+	<div class="body">
+        <div class="block1">
+            <p class="head1">Tutor Registration</p><hr>
+        <form name="form1" method="post" action="tutorreg1.php">
+            <fieldset class="fieldset">
+            <legend class="legend1"><b>Personal Details</b></legend>
+            <div class="span1">Tutor Name:<input class="inp1" type="text" name="tname" /></div>
+            <div class="span2">Birth Date:<input  min="1960-01-01"  max="2007-01-02" id="bday" type="date" name="tdob" /></div>
+            <div class="span3">Gender:
+            <input class="inp2" type="radio" name="gender" value="Male" checked>Male
+            <input class="inp2" type="radio" name="gender" value="Female">Female
+<input class="inp2" type="radio" name="gender" value="Others">Others</div>
+            <div class="span4">Contact:<input class="inp3" type="tel" name="contact" /></div>
+            <div class="span5">Email:<input id="emil" type="text" name="email" /></div>
+            <div class="span6">Known Language:<input class="inp4" type="text" name="klang">
+ 	
+        </fieldset>
+        
+            <fieldset class="fieldset">
+            <legend><b>Residental Details</b></legend>
+            <div class="span7"><p class="address">Address1:</p><textarea class="textarea" name="address"></textarea></div>
+            <div class="span8">Pincode:<input class="inp3" type="number" name="pin"></div>
+            <div class="span9">State:<select class="inp5" name="state">
+                <option value="maharastra">Maharastra</option>
+                <option value="goa">Goa</option>
+	<option value="up">U.P.</option>
+                <option value="bihar">Bihar</option>
+                <option value="assam">Assam</option>
+                <option value="kerla">Kerla</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="karanataka">Karnataka</option>
+            </select>
+            </div>
+            <div class="span10">City:<input class="inp6" type="text" name="city"></div>
+            <div class="span11">Country:<select class="inp11" name="country">
+                <option selected value="india">India</option>
+                </select></div>
+        </fieldset>
+        
+            <fieldset class="fieldset">
+            <legend><b>Educational Details</b></legend>
+            <div class="span12">Qualification:<input  name="education" class="inp8" type="radio"value="SSC" />SSC  
+            <input name="edu[]" type="radio" class="inp8" value="HSC"/>HSC
+			            <input name="edu[]" type="radio" class="inp8" value="Bsc"/>BSc
+            <input name="edu[]" type="radio" class="inp8" value="MSc"/>MSc</div>
+						Experience<input  class="inp1" type="text" name="exp"/>
+            <div name="edu[]" class="span13">Teaching Subject:<input class="inp9" type="text" name="sub" /></div>
+			
+            <div name="edu[]" class="span13">Teaching classes:<input class="inp9" type="text" name="class" /></div>
+			
+            
+            <fieldset class="fieldset">
+            <legend><b>Tutor Details</b></legend>
+            <div class="span14">Username:<input class="inp10" type="text" name="username" /></div>
+            <div class="span15">Password:<input class="inp12" type="password" name="password" /></div>
+	<div class="span16">Location:&nbsp;<input class="inp12" type="text" name="location" /></div>&nbsp;
+        <div class="span17">Fees:&nbsp;<input class="inp12" type="text" name="fees" /></div>
+            </fieldset>
+        
+		<button type="submit"  >SUBMIT</button> &nbsp;
+		
+		</form>
+        </div>
+	</div>
+    </body>
+</html>

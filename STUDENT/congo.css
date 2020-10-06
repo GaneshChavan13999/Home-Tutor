@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("source_background/bckground3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Century Gothic;;
+}
+
+.cong{
+background: rgba(44,62,70,0.4);
+padding:40px;
+margin-top: 150px;
+height: 180px;
+margin-left: 180px;
+margin: 0 auto;
+margin-top: 200px;
+width: 500px;
+}
+button{
+float: left;
+}
+input[type=button]
+{
+border:none;
+width: 100px;
+background: white;
+color: black;
+font-size: 16px;
+line-height: 25px;
+padding: 10px 0px;
+border-radius: 15px;
+cursor: pointer;
+}
+input[type=button]:hover
+{
+color:white;
+background: black;
+}
+form{
+width:350px;
+margin: 0 auto;
+}

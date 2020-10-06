@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> News Feed </title>
+
+<link rel="stylesheet" type="text/css" href="newsfields.css">
+<link rel="stylesheet" type="text/css" href="feed.css" />
+<link rel="stylesheet" type="text/css" href="global.css" />
+
+</head>
+
+<body>
+<header>
+
+<div class="main">
+<ul>
+<li><a href="feed.php">POST NEWSFEED</a></li>
+</ul>
+</div>
+<div class="header">&nbsp;&nbsp;HOME TUTOR's </div>
+
+
+<div >
+<h1>NEWSFEED's</h1></div>
+<table ><tr>
+
+<?php
+	//include("connection-path/connection.php");
+$count=0;
+//$db=mysqli_select_db($con,"tutor");
+$con=mysqli_connect("localhost","root","","tutor");
+$sql="select *  from post ";
+$result=$con->query($sql);
+while($row=$result->fetch_assoc())
+{
+echo "<td><div class='content'>";
+
+echo  "<h2>".$row["name"]."</h2>";
+echo "<h2>".$row["title"]."</h2>";
+echo "<p>".$row["descr"]."</p>";
+echo" </div> </td>";
+$count++;
+if($count%3==0)
+	{
+		echo"</tr><tr>";
+	}
+}
+?></tr></table>
+</div>
+</body>
+</html>

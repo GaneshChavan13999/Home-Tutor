@@ -1,0 +1,44 @@
+<?php
+try{
+$con=mysqli_connect("localhost","root","","tutor");
+$sql="insert into tut_details(`tname`, `tdob`, `gender`, `contact`, `email`, `klang`, `address`, `pin`, `state`, `city`, `country`, `education`, `exp`, `subject`,`class`, `username`,
+`password`, `location`, `fees`) values(
+'".$_POST["tname"]."',
+'".$_POST["tdob"]."',
+'".$_POST["gender"]."',
+'".$_POST["contact"]."',
+'".$_POST["email"]."',
+'".$_POST["klang"]."',
+'".$_POST["address"]."',
+'".$_POST["pin"]."',
+'".$_POST["state"]."',
+ '".$_POST["city"]."',
+ '".$_POST["country"]."',
+ '".$_POST["education"]."',
+ '".$_POST["exp"]."',
+ '".$_POST["sub"]."',
+  '".$_POST["class"]."',
+ '".$_POST["username"]."',
+ '".$_POST["password"]."',
+ '".$_POST["location"]."',
+ '".$_POST["fees"].
+ "')";
+$sql1="insert into tut_login values('".$_POST["username"]."','".$_POST["password"]."')";
+echo"hello";
+$result=$con->query($sql);
+$result1=$con->query($sql1);
+}
+catch(Exception $e) {
+	echo 'Message: ' .$e->getMessage();
+  }
+if($result&&$result1)
+{header("Location:http://localhost:82/project/logintutor.php");
+	exit();
+	
+	echo "succesfull";
+}
+else{
+    echo"not";
+}
+
+?>
