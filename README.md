@@ -1,0 +1,2 @@
+# Home-Tutor
+Developed a tuition portal for students and teachers so they can come on one platform to communicate. If student want to take physical classes then he will search tutor using location filter, and many more. Here student can take notes from teacher and can see any article is posted by any teacher. It is a simple website built using HTML, CSS, JavaScript. For backend I used PHP and for data base used MySQL.
